@@ -1,0 +1,326 @@
+/* Common CSS FOR SAP PAGES */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+b {
+	font-weight: 700;
+    color: #00b8ed;
+    font-size: 28px;
+}
+.list{
+	list-style-type: square;
+}
+.mlr-auto {
+	margin: 0 auto;
+	float: none;
+}
+/* Common CSS For SAP Pages Ended */
+
+/* ****************************************************************************************************** */
+
+/* CSS SAP BUSINESS BY DESIGN PAGE */
+.canary-img{
+	width: 100%;
+	height: 350px;
+	object-fit: contain;
+}
+
+.amss{
+    background-image: url(../img/2-01.jpg); 
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+    }
+.mb-0{margin-bottom: 0;text-align: center;}
+.pb-20{padding-bottom: 20px;
+	margin-top: 80px;
+}
+.AMSTexts .card {
+    -webkit-box-shadow: 0px 0px 10px 2px #008fd3;
+    -moz-box-shadow: 0px 0px 10px 2px #008fd3;
+    box-shadow: 0px 0px 10px 2px #008fd3;
+	padding: 100px 30px;
+    background: #fff;
+    height: 100%;}
+
+    .backgroundSquares {
+        display: flex;
+        padding-right: 53px;
+        padding-top: 54px;
+        background-image: url(../img/square.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        z-index: 9990;
+        background-size: 143px;
+        margin-top: 20px;
+    }
+	.sidess{
+		height: 300px;
+		width: auto;
+		margin-top: -26px;
+		z-index: 1;
+	}
+.cover{
+	margin: auto;
+	text-align: center;
+}
+.cover-image{
+	height: 300px;
+	width: 300px;
+}
+.bold{
+	color: #008fd3;
+	font-weight: 900;
+}
+.para{
+	font-size: 13px;
+	color:#1A1A1A ;
+	font-weight: 600;
+}
+.paras{
+	font-size: 14px;
+	color:#1A1A1A ;
+	font-weight: 600;
+}
+
+/* Key Benefits card CSS */
+.key-benifits-section{
+	background-image: url(../img/V1-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-light{
+	color: #fff;
+	
+
+}
+.tw{
+	margin-top:94px;
+	color: #fff;
+	
+}
+.key-benifits{
+	margin-bottom: 30px;
+}
+.cards{
+	background-color: #fff;
+	padding: 21px 15px;
+	border-radius: 25px;
+	border: 1px solid rgb(233, 232, 232);
+	
+}
+.cards:hover{
+	transform: scale(1.03);
+}
+.cards-benifits{
+	background-color: #fff;
+	padding: 21px 15px;
+	border-radius: 25px;
+	border: 1px solid rgb(233, 232, 232);
+	box-shadow:2px 2px 10px 10px #C9C9C9;
+ -webkit-box-shadow:2px 2px 10px 10px #C9C9C9;
+ -moz-box-shadow:2px 2px 10px 10px #C9C9C9;
+}
+.cards-benifits:hover{
+	transform: scale(1.03);
+}
+.card-img-top{
+	height: 180px;
+	width: 100%;
+	object-fit: contain;
+}
+.card-title{
+	font-size: 28px;
+	font-weight: 800;
+	color: #003c55;
+}
+.card-text {
+    font-size: 13px;
+    color: #000;
+}
+/*  Benefits of Integration css */
+.capability{
+	background-image: url(../img/v1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Capabilities-cards{
+	background-color: #fff;
+	border-left: 7px solid #028cb4;
+	border-bottom: 7px solid #028cb4;
+	padding: 15px 25px;
+	text-align: center;
+	height: 380px;
+	margin-bottom: 35px;
+	
+}
+.Capabilities-cards:hover{
+	transform: scale(1.03);
+	border: none;
+}
+.Capabilities-cards-2{
+	background-color: #fff;
+	border-left: 7px solid #028cb4;
+	padding: 15px 25px;
+	text-align: center;
+	height: 380px;
+	border-bottom: 7px solid #028cb4;
+	margin-bottom: 35px;
+}
+.Capabilities-cards-2:hover{
+	transform: scale(1.03);
+	border: none;
+}
+.para-tm{
+	color: #636363;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.icon-image{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #20a3f0;
+	margin: auto;
+	text-align: center;
+}
+.img-ic{
+	height: 50px;
+	width: 50px;
+	object-fit: contain;
+	margin-top: 26px;
+	
+}
+.sap-img{
+	height: 350px;
+	width: 100%;
+	object-fit: contain;
+}
+.Capabilities-title{
+	line-height: 30px;
+    color: #474747;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hdt{
+	color: #ffffff;
+	font-size: 25px;
+	padding-top: 30px;
+
+}
+.choose{
+background-color: #ffffff;
+}
+.choose-sec{
+	text-align: center;
+}
+/*  responsive CSS */
+
+@media (max-width:768px) {
+	.backgroundSquare img {
+		max-width: 100%;
+		height: 205px;
+		object-fit: contain;
+		margin: 35px;
+	}
+	.key-benifits-section {
+		margin-top: -151px;
+	}
+	.Capabilities-cards {
+		background-color: #fff;
+		border-left: 7px solid #028cb4;
+		border-bottom: 7px solid #028cb4;
+		padding: 15px 25px;
+		text-align: center;
+		height: 419px;
+		margin-bottom: 25px;
+	}
+	.Capabilities-cards-2 {
+		background-color: #fff;
+		border-left: 7px solid #028cb4;
+		border-bottom: 7px solid #028cb4;
+		padding: 15px 25px;
+		text-align: center;
+		height: 419px;
+		margin-bottom: 25px;
+	}
+}
+.bgr{
+	background-image: url(../img/square.png);
+	background-repeat: no-repeat;
+    background-position: right top;
+    z-index: 9990;
+    background-size: 143px;
+    margin-top: 70px;
+}
+.choose-img{
+	width: 100%;
+	margin-top: 70px;
+}
+.sidess {
+    height: 300px;
+    width: auto;
+    margin-top: -26px;
+    z-index: 1;
+    width: 94%;
+    object-fit: contain;
+}
+
+@media (max-width:600px) {
+	.mid-sec {
+		display: none;}
+}
+.key-benifits-section{
+	margin-top: 18px;
+}
+.tw {
+    margin-top: 21px;
+    color: #fff;
+}
+@media (max-width:425px) {
+	.backgroundSquare {
+		display: none;
+	}
+	.sapContainer h2, .startRpa h2 {
+		color: #003c55 !important;
+		letter-spacing: 0;
+		font-size: 23px !important;
+		font-weight: bolder;
+		font-family: 'Raleway', sans-serif !important;
+		margin-top: 0;
+	}
+	.tw {
+		margin-top: 21px;
+		color: #fff;
+	}
+	.paras {
+		font-size: 13px;
+		color: #1A1A1A;
+		font-weight: 600;
+	}
+	.Capabilities-cards {
+		background-color: #fff;
+		border-left: 7px solid #028cb4;
+		border-bottom: 7px solid #028cb4;
+		padding: 15px 25px;
+		text-align: center;
+		height: 470px;
+		margin-bottom: 24px;
+	}
+	.Capabilities-cards-2 {
+		background-color: #fff;
+		border-left: 7px solid #028cb4;
+		border-bottom: 7px solid #028cb4;
+		padding: 15px 25px;
+		text-align: center;
+		height: 470px;
+		margin-bottom: 24px;
+	}
+
+   
+  }
+ 
